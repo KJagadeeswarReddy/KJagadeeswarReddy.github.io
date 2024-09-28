@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>K Jagadeeswara Reddy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - K Jagadeeswara Reddy</title>
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
 <body>
@@ -16,24 +18,41 @@
         </nav>
     </header>
     <section id="about">
-        <h1>K Jagadeeswara Reddy</h1>
-        <p>Welcome to my portfolio website. I am a software engineer with a passion for solving problems and building applications.</p>
+        <h1>About Me</h1>
+        <p>Welcome to my portfolio website. I am K Jagadeeswara Reddy, a passionate developer.</p>
     </section>
     <section id="skills">
-        <h2>Skills</h2>
-        <!-- List your skills here -->
+        <h1>Skills</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+        </ul>
     </section>
     <section id="projects">
-        <h2>Projects</h2>
-        <!-- Showcase your projects here -->
+        <h1>Projects</h1>
+        <div class="project">
+            <h2>Project 1</h2>
+            <p>Description of project 1.</p>
+        </div>
+        <div class="project">
+            <h2>Project 2</h2>
+            <p>Description of project 2.</p>
+        </div>
     </section>
     <section id="contact">
-        <h2>Contact</h2>
-        <!-- Contact form or details can go here -->
+        <h1>Contact</h1>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
-    <footer>
-        <p>© 2022 K Jagadeeswara Reddy</p>
-    </footer>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
